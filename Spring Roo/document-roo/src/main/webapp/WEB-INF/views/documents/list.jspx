@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_Document" items="${documents}" z="/wetXly8NYOU9pGVA9W2hbVb1V0=">
+        <table:table data="${documents}" id="l_org_rad_roo_document_domain_Document" path="/documents" z="Uvt1kKAfD0qreRZBzDP5qk49yvs=">
+            <table:column id="c_org_rad_roo_document_domain_Document_docid" property="docid" z="sindR2iZFjBJucQ2kar3chAvufY="/>
+            <table:column id="c_org_rad_roo_document_domain_Document_documentId" property="documentId" z="AOBEIqo3aKu4sDIIMA9RWzRZ2bs="/>
+            <table:column id="c_org_rad_roo_document_domain_Document_revisions" property="revisions" z="W9FBfEm/H6a6trgh1bIqaouKa2Q="/>
+            <table:column id="c_org_rad_roo_document_domain_Document_classifications" property="classifications" z="iUk+6uYMGpiSrDMu1B9awoFZYiw="/>
+            <table:column id="c_org_rad_roo_document_domain_Document_description" property="description" z="/0/HADcSGtho4XfE6cA58Ue7bU4="/>
+            <table:column id="c_org_rad_roo_document_domain_Document_documents" property="documents" z="9iR2Q9HtoiMk2EeZN/lD5pJT6Ec="/>
+        </table:table>
+    </page:list>
+</div>

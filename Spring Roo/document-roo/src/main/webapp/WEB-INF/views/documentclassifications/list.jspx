@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_DocumentClassification" items="${documentclassifications}" z="kukT+Qjbhlh005NJISwTut3+gSc=">
+        <table:table data="${documentclassifications}" id="l_org_rad_roo_document_domain_DocumentClassification" path="/documentclassifications" z="LI0TqnOViKvIHizPpEuGA0tbVAA=">
+            <table:column id="c_org_rad_roo_document_domain_DocumentClassification_classId" property="classId" z="9PV/a+F14frtEMFPBU7vyyXuoI0="/>
+            <table:column id="c_org_rad_roo_document_domain_DocumentClassification_className" property="className" z="uAmE2lYN/+eAUwEDU683q0sxpn0="/>
+            <table:column id="c_org_rad_roo_document_domain_DocumentClassification_classificationSystem" property="classificationSystem" z="W34x34yF2r/69h86W68BRVsgNMI="/>
+        </table:table>
+    </page:list>
+</div>

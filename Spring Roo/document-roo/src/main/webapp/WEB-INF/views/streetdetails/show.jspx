@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_rad_roo_document_domain_StreetDetail" object="${streetdetail}" path="/streetdetails" z="KhCCH1ERk8kJct/gef6MsWbFvbg=">
+        <field:display field="addressGeneral" id="s_org_rad_roo_document_domain_StreetDetail_addressGeneral" object="${streetdetail}" z="tVE9s7pxbLpDeXd87UnrHn0UNmg="/>
+        <field:display field="buildingName" id="s_org_rad_roo_document_domain_StreetDetail_buildingName" object="${streetdetail}" z="hp+Avh24NBiY8ToPPsNBs44zTFw="/>
+        <field:display field="code" id="s_org_rad_roo_document_domain_StreetDetail_code" object="${streetdetail}" z="Mxv9v/VDTAoxri+QPZVTstDNteg="/>
+        <field:display field="name" id="s_org_rad_roo_document_domain_StreetDetail_name" object="${streetdetail}" z="55y0O9Y+pzwcVb2WA3LIw8SW81o="/>
+        <field:display field="nr" id="s_org_rad_roo_document_domain_StreetDetail_nr" object="${streetdetail}" z="BWgQgR49qXm4oKD59BWjj330x90="/>
+        <field:display field="prefix" id="s_org_rad_roo_document_domain_StreetDetail_prefix" object="${streetdetail}" z="mSbb+RCJ/JfYZX0GTf5YBqA2Pe0="/>
+        <field:display field="suffix" id="s_org_rad_roo_document_domain_StreetDetail_suffix" object="${streetdetail}" z="7Sp6iro7PehD8Wk4PWwa7qaLdNc="/>
+        <field:display field="suiteNumber" id="s_org_rad_roo_document_domain_StreetDetail_suiteNumber" object="${streetdetail}" z="EJNW57dVv0FAB9j641k5okAc2f8="/>
+        <field:display field="type" id="s_org_rad_roo_document_domain_StreetDetail_type" object="${streetdetail}" z="LlRwxNX/b3S+TOIjr7mThMgJM5Q="/>
+        <field:display field="withinTownLimits" id="s_org_rad_roo_document_domain_StreetDetail_withinTownLimits" object="${streetdetail}" z="NsmvFi6yGjw3BzPBb9p5zCHPJpI="/>
+    </page:show>
+</div>

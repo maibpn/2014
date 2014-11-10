@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_TownDetail" items="${towndetails}" z="/HZcDwIgxGOzaa1so1/DUcDzs60=">
+        <table:table data="${towndetails}" id="l_org_rad_roo_document_domain_TownDetail" path="/towndetails" z="ZMkgh1spLBYigEjB0Q4ckQj9KV4=">
+            <table:column id="c_org_rad_roo_document_domain_TownDetail_code" property="code" z="fFtZLATId5h4VC1QgMDtokyT2Xc="/>
+            <table:column id="c_org_rad_roo_document_domain_TownDetail_country" property="country" z="vDaZawsODZxb+uefOPYBhcAhYTU="/>
+            <table:column id="c_org_rad_roo_document_domain_TownDetail_sec" property="sec" z="64o/brzo/GjGB2GLodYMcEK8o1Y="/>
+            <table:column id="c_org_rad_roo_document_domain_TownDetail_stateOrProvince" property="stateOrProvince" z="V2LqfLbCGbqD4gQVf/JN3kQGbZs="/>
+        </table:table>
+    </page:list>
+</div>

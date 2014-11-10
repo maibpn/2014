@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_rad_roo_document_domain_Document" object="${document}" path="/documents" z="9TlkfKu9tImZB5wuswfg0jy8OO4=">
+        <field:display field="docid" id="s_org_rad_roo_document_domain_Document_docid" object="${document}" z="+U59fbkGdapIJpwFo3bmVgK4XQI="/>
+        <field:display field="documentId" id="s_org_rad_roo_document_domain_Document_documentId" object="${document}" z="hhe+ft1Jchzk2KMz4jrtQDyo8Kg="/>
+        <field:display field="revisions" id="s_org_rad_roo_document_domain_Document_revisions" object="${document}" z="5AYriN+sOzkQXQ2kkDAea4KvyX8="/>
+        <field:display field="classifications" id="s_org_rad_roo_document_domain_Document_classifications" object="${document}" z="nOtMzPXnaHFDPn2DdgkzomvFnp0="/>
+        <field:display field="description" id="s_org_rad_roo_document_domain_Document_description" object="${document}" z="0kCuWbkqRx0AHjrQ6S96iJbAG+I="/>
+        <field:display field="documents" id="s_org_rad_roo_document_domain_Document_documents" object="${document}" z="ETpFwQiE7+bh6IidOAFM/W6q/+U="/>
+        <field:display field="relations" id="s_org_rad_roo_document_domain_Document_relations" object="${document}" z="UOFhRhdypS2yA0i1+ZLUh9E9dTQ="/>
+        <field:display field="deliveredBy" id="s_org_rad_roo_document_domain_Document_deliveredBy" object="${document}" z="mw15P54EsIT2t4LB/4cGD1rZPFA="/>
+    </page:show>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_rad_roo_document_domain_Person" idField="id_" modelAttribute="person" path="/people" versionField="Version" z="fCQpTALAWjbZI3TE8YAPgtZf/W4=">
+        <field:input field="id" id="c_org_rad_roo_document_domain_Person_id" required="true" z="xCbAejNg7X/wPkePbxTb8gaYfGc="/>
+        <field:select field="gender" id="c_org_rad_roo_document_domain_Person_gender" items="${genders}" path="genders" z="3cjTLd2tdID0flPYu7vndfVrdEQ="/>
+        <field:input field="firstName" id="c_org_rad_roo_document_domain_Person_firstName" z="G1e7niK8jpU7Qd93Lo7NCk7X0PM="/>
+        <field:input field="mName" id="c_org_rad_roo_document_domain_Person_mName" z="PoSmBoQpnnjpk0NzezxaveByFZA="/>
+        <field:input field="lastName" id="c_org_rad_roo_document_domain_Person_lastName" z="THN3enU2dcC7Dt4dK4yMbNBkZvo="/>
+        <field:input field="jobTitle" id="c_org_rad_roo_document_domain_Person_jobTitle" z="saC3D93jFjfqUBgWZznc0K6TyvA="/>
+        <field:input field="prefix" id="c_org_rad_roo_document_domain_Person_prefix" z="sbO1HrJ0gsDcDUl9QURgVCnLJFY="/>
+        <field:input field="suffix" id="c_org_rad_roo_document_domain_Person_suffix" z="tmgUl2BVwAwXMOk54gDXslXViLE="/>
+        <field:select field="electronicAddress" id="c_org_rad_roo_document_domain_Person_electronicAddress" itemValue="id" items="${electronicaddresses}" path="/electronicaddresses" z="t/SZYXCas2ap3TlR28ihNVKm5gE="/>
+        <field:select field="mobilePhone" id="c_org_rad_roo_document_domain_Person_mobilePhone" itemValue="id" items="${telephonenumbers}" path="/telephonenumbers" z="Vj7w5ozXn5O3OlyGYi1kvHfY0bE="/>
+        <field:select field="fax" id="c_org_rad_roo_document_domain_Person_fax" itemValue="id" items="${telephonenumbers}" path="/telephonenumbers" z="taYC0NKDBi5WW/KBrLfe4IMxekQ="/>
+        <field:select field="landLinePhone" id="c_org_rad_roo_document_domain_Person_landLinePhone" itemValue="id" items="${telephonenumbers}" path="/telephonenumbers" z="cYdDi0CC+KoHhB1m8LW2XuL5+2U="/>
+        <field:select field="personalAddress" id="c_org_rad_roo_document_domain_Person_personalAddress" itemValue="id" items="${postaladdresses}" path="/postaladdresses" z="n2+k6yKsI/u2uDFIPDnHptXprxA="/>
+        <field:select field="documents" id="c_org_rad_roo_document_domain_Person_documents" itemValue="id" items="${documents}" multiple="true" path="/documents" z="Jyc9/CJHSFQRMWBp7M5GFi6nVn0="/>
+    </form:update>
+</div>

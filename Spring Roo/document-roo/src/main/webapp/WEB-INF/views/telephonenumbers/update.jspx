@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_rad_roo_document_domain_TelephoneNumber" modelAttribute="telephoneNumber" path="/telephonenumbers" versionField="Version" z="qqJNBoHfife/ew+/dTI1kUnU0m8=">
+        <field:input field="areaCode" id="c_org_rad_roo_document_domain_TelephoneNumber_areaCode" required="true" z="Ocd0NoS4Q4+mGmH0vPh4bbW4r/I="/>
+        <field:input field="cityCode" id="c_org_rad_roo_document_domain_TelephoneNumber_cityCode" required="true" z="oUR+V7UmDPiRrJ9ZSjjusUc3h2I="/>
+        <field:input field="countryCode" id="c_org_rad_roo_document_domain_TelephoneNumber_countryCode" required="true" z="/NSfT6S5i8+AzKZf2Kv2lo6aNtQ="/>
+        <field:input field="extension" id="c_org_rad_roo_document_domain_TelephoneNumber_extension" required="true" z="yZzZyUZmlB6ibRRLLpUx3rxm+gs="/>
+        <field:input field="localNumber" id="c_org_rad_roo_document_domain_TelephoneNumber_localNumber" required="true" z="R7J0MYpG++oPjfDz08A1f3ZEsqU="/>
+    </form:update>
+</div>

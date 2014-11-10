@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_PostalAddress" items="${postaladdresses}" z="HoKYE5f9etSrFdPVHe9OypW/3FQ=">
+        <table:table data="${postaladdresses}" id="l_org_rad_roo_document_domain_PostalAddress" path="/postaladdresses" z="bF/BgYd6F7i0tNJeoSBzHCMK1hE=">
+            <table:column id="c_org_rad_roo_document_domain_PostalAddress_postalCode" property="postalCode" z="MsoXs17qTLLzQ0cM32yaL34yAMo="/>
+            <table:column id="c_org_rad_roo_document_domain_PostalAddress_townDetail" property="townDetail" z="Vo4BSawhmxKQsF4eef9ZNGJzGC4="/>
+            <table:column id="c_org_rad_roo_document_domain_PostalAddress_streetDetail" property="streetDetail" z="P2YyDkGUEb4IJ/R5FMoZVozQUBI="/>
+        </table:table>
+    </page:list>
+</div>

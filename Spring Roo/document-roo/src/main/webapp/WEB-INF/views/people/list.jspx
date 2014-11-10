@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_Person" items="${people}" z="6MLGpxt2N9l+X3+d6okhu1rMwyQ=">
+        <table:table data="${people}" id="l_org_rad_roo_document_domain_Person" path="/people" typeIdFieldName="id_" z="IU+89tKDN/kOwk93TcuR7zMhmb0=">
+            <table:column id="c_org_rad_roo_document_domain_Person_id" property="id" z="RUSA6GmnZMJ4RsI8dgfy5XpBPu0="/>
+            <table:column id="c_org_rad_roo_document_domain_Person_gender" property="gender" z="u7bAH/z2/12u+cv9xX5yM897UYo="/>
+            <table:column id="c_org_rad_roo_document_domain_Person_firstName" property="firstName" z="r2LW7IfXC7/7bf7NThiG/SNaaQ8="/>
+            <table:column id="c_org_rad_roo_document_domain_Person_mName" property="MName" z="UVeZWEGeBvvRINH2gXFC9URyT4M="/>
+            <table:column id="c_org_rad_roo_document_domain_Person_lastName" property="lastName" z="Jyqod31LrDhS3AbercEvswKueoE="/>
+            <table:column id="c_org_rad_roo_document_domain_Person_jobTitle" property="jobTitle" z="qW/15+7fwBLEf/0SMvUyENmOTcw="/>
+        </table:table>
+    </page:list>
+</div>

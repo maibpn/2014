@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_rad_roo_document_domain_StreetDetail" items="${streetdetails}" z="AzbBkZfhkSvZ3PXKYD9v/qUrm2Y=">
+        <table:table data="${streetdetails}" id="l_org_rad_roo_document_domain_StreetDetail" path="/streetdetails" z="/hoLsbP3R67gbN9d3UTHASnxJNI=">
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_addressGeneral" property="addressGeneral" z="xI0omLHs55dqHDkZQ9y/u9YUCv0="/>
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_buildingName" property="buildingName" z="d6VzUzTfsqivYl0WckembcgdJAc="/>
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_code" property="code" z="zDeiZntdS8IqiPxXr4ypPZGJ6Us="/>
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_name" property="name" z="y42WEZXHTOEPH47uZP+4P3qdSDw="/>
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_nr" property="nr" z="DF6k1fdcUnS0BqSx7flneoHfBO8="/>
+            <table:column id="c_org_rad_roo_document_domain_StreetDetail_prefix" property="prefix" z="i3kJLuLp0rjMQ3tlEEWo2rrMBVs="/>
+        </table:table>
+    </page:list>
+</div>

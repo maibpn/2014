@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_rad_roo_document_domain_Description" object="${description}" path="/descriptions" z="9JgoZXEllyYWsXm9m4xPqqMs1N0=">
+        <field:display field="numberOfPages" id="s_org_rad_roo_document_domain_Description_numberOfPages" object="${description}" z="B9etG4L326/znWtwnQ5KG294uek="/>
+        <field:display field="size" id="s_org_rad_roo_document_domain_Description_size" object="${description}" z="pkW/+sDCxxBYeH9KYOH7mo0juLI="/>
+        <field:display field="comment" id="s_org_rad_roo_document_domain_Description_comment" object="${description}" z="4NKNOxDAfGSlHAbycVVrtgM6uIg="/>
+        <field:display field="title" id="s_org_rad_roo_document_domain_Description_title" object="${description}" z="MqL28EGZNjpwoNngAYnrpFlrais="/>
+        <field:display field="summary" id="s_org_rad_roo_document_domain_Description_summary" object="${description}" z="EOx+qjnf8+nJbieAHA/Z5/aQiPo="/>
+        <field:display field="keyword" id="s_org_rad_roo_document_domain_Description_keyword" object="${description}" z="a5VVd4xOGEm8rpCfz2FjZLNOfEo="/>
+    </page:show>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_rad_roo_document_domain_Person" object="${person}" path="/people" z="3+UizuWhK/q/VZG1tcxBokqjK3c=">
+        <field:display field="id" id="s_org_rad_roo_document_domain_Person_id" object="${person}" z="GYcdQdv1DEcjvvW99z6J7SLjme0="/>
+        <field:display field="gender" id="s_org_rad_roo_document_domain_Person_gender" object="${person}" z="y7cTih85ycZbKZzbK6zGDI0kymE="/>
+        <field:display field="firstName" id="s_org_rad_roo_document_domain_Person_firstName" object="${person}" z="qKomUX08hT2rQ/cNucC3bAWzgEc="/>
+        <field:display field="MName" id="s_org_rad_roo_document_domain_Person_mName" object="${person}" z="MCoQI1rePg0UtNhTjY4x/84hGEY="/>
+        <field:display field="lastName" id="s_org_rad_roo_document_domain_Person_lastName" object="${person}" z="xIktGAWMNiQA4ZydtQ6bE5Zfrr0="/>
+        <field:display field="jobTitle" id="s_org_rad_roo_document_domain_Person_jobTitle" object="${person}" z="J9Vo4uVj79d2kB9C8zCPyeeBJm4="/>
+        <field:display field="prefix" id="s_org_rad_roo_document_domain_Person_prefix" object="${person}" z="6LoK7tvm48EhLTB/pQBn8wTQJrc="/>
+        <field:display field="suffix" id="s_org_rad_roo_document_domain_Person_suffix" object="${person}" z="ZafLL2ER3xOf+N0yBrLch1H2yQw="/>
+        <field:display field="electronicAddress" id="s_org_rad_roo_document_domain_Person_electronicAddress" object="${person}" z="tmYvxuPl7zGCDV0pNXiFLCvi65I="/>
+        <field:display field="mobilePhone" id="s_org_rad_roo_document_domain_Person_mobilePhone" object="${person}" z="4YPBG7pcvKmKk4f8iegivWZhQ6o="/>
+        <field:display field="fax" id="s_org_rad_roo_document_domain_Person_fax" object="${person}" z="zf5eMU29YSxhajZNK54aQy2k7RM="/>
+        <field:display field="landLinePhone" id="s_org_rad_roo_document_domain_Person_landLinePhone" object="${person}" z="wO2/X4ou/bawl8qBzjrARJoE2O8="/>
+        <field:display field="personalAddress" id="s_org_rad_roo_document_domain_Person_personalAddress" object="${person}" z="rd8ekDbGKiGnfuwrmVnyDAkEo8w="/>
+        <field:display field="documents" id="s_org_rad_roo_document_domain_Person_documents" object="${person}" z="7F7xz6InU4dPycRnIYT6LBGtneI="/>
+    </page:show>
+</div>

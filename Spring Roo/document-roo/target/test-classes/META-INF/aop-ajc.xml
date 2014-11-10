@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="org.rad.roo.document.domain.PersonDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="org.rad.roo.document.domain.PersonDataOnDemand_Roo_Configurable"/>
+<aspect name="org.rad.roo.document.domain.PersonIntegrationTest_Roo_Configurable"/>
+<aspect name="org.rad.roo.document.domain.PersonIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

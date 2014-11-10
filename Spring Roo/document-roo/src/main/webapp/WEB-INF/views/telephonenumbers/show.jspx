@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_rad_roo_document_domain_TelephoneNumber" object="${telephonenumber}" path="/telephonenumbers" z="Ermcfu6TPBI/9uqOIt15R1H9Fyw=">
+        <field:display field="areaCode" id="s_org_rad_roo_document_domain_TelephoneNumber_areaCode" object="${telephonenumber}" z="e4eM7ZaoywuPdBy3XuQP6vW2IwA="/>
+        <field:display field="cityCode" id="s_org_rad_roo_document_domain_TelephoneNumber_cityCode" object="${telephonenumber}" z="ygzO3QSRSPVHG8syiSaQgvGUHG4="/>
+        <field:display field="countryCode" id="s_org_rad_roo_document_domain_TelephoneNumber_countryCode" object="${telephonenumber}" z="leAh9hgmbPGHuvnwymqqinSNPMs="/>
+        <field:display field="extension" id="s_org_rad_roo_document_domain_TelephoneNumber_extension" object="${telephonenumber}" z="W3WwxEPB54Vs2LyG6Fb87EO/+lo="/>
+        <field:display field="localNumber" id="s_org_rad_roo_document_domain_TelephoneNumber_localNumber" object="${telephonenumber}" z="J89EhYG3fe/UcFXlbPUyRPhdTOg="/>
+    </page:show>
+</div>

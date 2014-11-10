@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_rad_roo_document_domain_PostalAddress" modelAttribute="postalAddress" path="/postaladdresses" versionField="Version" z="YaD8oVW85SgUzgLhnr66UNiYvpI=">
+        <field:input field="postalCode" id="c_org_rad_roo_document_domain_PostalAddress_postalCode" z="YJhikVsmNESbYIWs86SqCcp9e9s="/>
+        <field:select field="townDetail" id="c_org_rad_roo_document_domain_PostalAddress_townDetail" itemValue="id" items="${towndetails}" path="/towndetails" required="true" z="kjSfJJKKyCCmGWYRYhfc5t/fKRc="/>
+        <field:select field="streetDetail" id="c_org_rad_roo_document_domain_PostalAddress_streetDetail" itemValue="id" items="${streetdetails}" path="/streetdetails" required="true" z="TcSyu6XXLRrZ1+6v0ZlVg2GpwXI="/>
+    </form:update>
+</div>
