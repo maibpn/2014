@@ -7,5 +7,5 @@ class DocumentId {
 		documentsId  blank: false,nullable: false
     }
 	
-	String toString(){return documentId}
+	String toString(){return documentsId}
 }

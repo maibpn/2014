@@ -9,5 +9,5 @@ class Summary {
     }
 	
 	
-	String toString(){return Text}
+	String toString(){return text}
 }
