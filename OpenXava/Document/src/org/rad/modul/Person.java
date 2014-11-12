@@ -1,11 +1,12 @@
 package org.rad.modul;
 
 import java.util.*;
+
 import javax.persistence.*;
 
 @Entity
 public class Person {
-    @Id@Column
+	@Id @Column
     private String persid;
     @Column
     private String firstname;
@@ -31,7 +32,7 @@ public class Person {
     private TelephoneNumber fax;
     @OneToOne
     private TelephoneNumber landlinePhone;	
-    @OneToMany
+    @OneToMany(mappedBy="deliveredBy")
 	private Collection<Document> document;
 
 	public Collection<Document> getDocument() {
@@ -138,7 +139,7 @@ public class Person {
 		this.landlinePhone = landlinePhone;
 	}
 
-	public String toString(){return firstname.toString();}
+	public String toString(){return persid.toString();}
 
 	public String getPersid() {
 		return persid;

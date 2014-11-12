@@ -7,7 +7,7 @@ import javax.persistence.*;
 import org.openxava.annotations.*;
 @Entity
 public class Document{
-	@Id@Column
+	@Id @Column
 	private String docId;		
 	@OneToMany
 	private Collection<Description> descriptions;
@@ -21,7 +21,7 @@ public class Document{
 	private DocumentRelationship document;
 	@ManyToOne @DescriptionsList(descriptionProperties="description")
 	private DocumentRelationship relation;
-	@ManyToOne @DescriptionsList(descriptionProperties="firstname")
+	@ManyToOne  @DescriptionsList(descriptionProperties="persid")
 	private Person deliveredBy;
 
 	public Person getDeliveredBy() {
